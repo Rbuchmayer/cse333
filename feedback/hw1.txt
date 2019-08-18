@@ -1,0 +1,18 @@
+
+  ====  CSE 333 HW1 Feedback  ====
+
+Test Suite: 230/230
+
+Valgrind:  5/5
+
+Code quality - modularity
+and error checking:          8/10
+(-1) HT helper function not declared static.
+(-1) Removing + adding a node instead of replacing value in-place in InsertHashTable when the key already exists. [Opens up code path where hashtable ends up with fewer elements after insert returns.]
+
+Style issues, comments and
+blending with starter code:  6/10
+(-3) Clint returns significant (or too many, >10) style errors that can be easily fixed.
+(-1) Casts things to void*/void** instead of proper type.
+
+Extra credit:  /5

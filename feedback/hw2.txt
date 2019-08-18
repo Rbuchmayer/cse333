@@ -1,0 +1,22 @@
+
+  ====  CSE 333 HW2 Feedback  ====
+
+Test Suite: 270/270
+
+Valgrind:  5/5
+
+Code quality - modularity
+and error checking:         9/10
+(-1) Doesn't check EAGAIN or EINTR to properly continue reading.
+
+Style issues, comments and 
+blending with starter code:  7/10
+(-3) Clint returns many formatting errors.
+
+Searchshell:   2/5
+(-2) searchshell does not exit gracefully upon EOF or Ctrl+D. Leads to segfault.
+(-1) searchshell.c isn't clear or well-commented. Consider writing helper functions to organize code better.
+
+
+
+Extra credit:  /5
